@@ -17,13 +17,6 @@ This project is intended as an introductory SoC design example for students lear
 - ✔ Includes Verilog, C code, and Platform Designer system  
 
 ---
-## 3. System Architecture
+## References / Additional Resources
 
-### Block Diagram
-
-+-----------------+ AXI-Lite +----------------+
-| | ---------------------> | |
-| HPS | Write input A | FPGA |
-| (Cortex-A9) | ---------------------> | Adder Logic |
-| | <--------------------- | |
-+-----------------+ Read SUM +----------------+
+- [Tutorial: Adder Nios II on DE1-SoC (YouTube video)](https://youtu.be/bSVHL2WiE1A) — a step-by-step walkthrough of building an adder on DE1-SoC with HPS ↔ FPGA integration  
