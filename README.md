@@ -16,3 +16,14 @@ This project is intended as an introductory SoC design example for students lear
 - ✔ Fully verified on DE1-SoC board  
 - ✔ Includes Verilog, C code, and Platform Designer system  
 
+---
+## 3. System Architecture
+
+### Block Diagram
+
++-----------------+ AXI-Lite +----------------+
+| | ---------------------> | |
+| HPS | Write input A | FPGA |
+| (Cortex-A9) | ---------------------> | Adder Logic |
+| | <--------------------- | |
++-----------------+ Read SUM +----------------+
